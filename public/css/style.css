@@ -1,0 +1,162 @@
+body{
+    color: #333333;
+    font-family: Arial;
+    max-width: 665px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+.main-content{
+    flex-grow: 1;
+}
+.portrait{
+    width: 250px;
+}
+bottom{
+    color: #666666;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16p;
+}
+header{
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+header a{
+    color: #333333;
+    font-size: 16px;
+    margin-right: 16px ;
+    text-decoration: none ;
+}
+h1{
+   font-size: 64px;
+   margin-bottom: 16px;            
+}
+input{
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+button{
+ 
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 8px;
+    
+
+}
+.day-section{
+  display: grid;
+  grid-template-columns: repeat(auto-fir,75px);
+  gap: 0.sem;
+  justify-content: center;
+  padding: 1px;
+}
+.day-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid hsl(200, 100%, 10%);
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+}
+/*nav {
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    position: relative;
+  }
+  
+  li {
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+  }
+  
+  a:hover {
+    background-color: #dfdede;
+  }
+  
+  ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    display: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  ul ul li {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  li:hover > ul {
+    display: block;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .social-icons {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons li:last-child {
+    margin-right: 0;
+  }
+  
+  .social-icons a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #cf4f4f;
+    font-size: 14px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .social-icons a:hover {
+    background-color: #fff;
+    color: #ffffff;
+  }
+  */
